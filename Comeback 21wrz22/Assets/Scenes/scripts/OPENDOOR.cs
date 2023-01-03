@@ -2,19 +2,14 @@ using UnityEngine;
 
 public class OPENDOOR : MonoBehaviour
 {
-    private MeshRenderer kolorek;
+    Animator animator;
     private void Start()
     {
-        kolorek = GetComponent<MeshRenderer>();
+        animator = GetComponent<Animator>();
     }
 
-    private void OnCollisionEnter
-        (Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "DOOR")
-        {
-           
-            Debug.Log("COLOR");
-        }
+        animator.Play("DoorOpenClose");
     }
 }

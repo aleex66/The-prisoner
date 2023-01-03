@@ -107,6 +107,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7241123158661356682}
   - component: {fileID: 2595257804146528454}
+  - component: {fileID: 7613762296657650169}
+  - component: {fileID: 660646028729338812}
   m_Layer: 0
   m_Name: DoorCell
   m_TagString: DOOR
@@ -158,6 +160,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2d6b22487d59241ae1fd09d8b77bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &7613762296657650169
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095408881694576418}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe3b737e2bb7a3343b08fd2a183d49cd, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &660646028729338812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095408881694576418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1659408, y: 6.0380874, z: 0.22382975}
+  m_Center: {x: -0.4438212, y: -0.27822328, z: -0.2342689}
 --- !u!1 &1401442417939612965
 GameObject:
   m_ObjectHideFlags: 0
