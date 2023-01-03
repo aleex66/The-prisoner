@@ -15,7 +15,7 @@ public class RespawnCharacter : MonoBehaviour
     public void Start()
     {
         currentHealth = maxHealth;
-        healthBar.Sethealth(maxHealth);
+        healthBar.MaxHealth(maxHealth);
     }
 
     void OnCollisionEnter(Collision collision)
@@ -28,8 +28,6 @@ public class RespawnCharacter : MonoBehaviour
                 TakeDamage(10);
                 
             }
-           // if(collision.gameObject.CompareTag("Flush"))
-                // FindObjectOfType <AudioManager>().Play("Flush");
         }
 
     void TakeDamage(int damage)
@@ -37,26 +35,17 @@ public class RespawnCharacter : MonoBehaviour
         currentHealth -= damage;
         //currentHealth -= maxHealth;
         healthBar.Sethealth(currentHealth);
-        if (currentHealth <= 70)
+        if (currentHealth <= 500)
         {
-            foreach (GameObject i in healthImg)
-            {
-                
                 healthImg[0].SetActive(false);
                 healthImg[1].SetActive(true);
-            }
-        }
-        else if (currentHealth <= 30)
-        {
-            foreach (GameObject i in healthImg)
-            {
-                healthImg[1].SetActive(false);
-                healthImg[2].SetActive(true);
-            }
-        }
-        else if(currentHealth>=71)
-        {
-            healthImg[0].SetActive(true);
+                if (currentHealth <= 100)
+                {
+            
+                    healthImg[1].SetActive(false);
+                    healthImg[2].SetActive(true);
+            
+                }
         }
     }
     

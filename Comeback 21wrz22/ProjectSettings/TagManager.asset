@@ -13,6 +13,7 @@ TagManager:
   - Jumper
   - Poop
   - HealthImage
+  - DOOR
   layers:
   - Default
   - TransparentFX
