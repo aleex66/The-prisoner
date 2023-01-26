@@ -1,0 +1,80 @@
+using Unity.VisualScripting;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class ButtonStart : MonoBehaviour
+{
+    public GameObject[] panelStart;
+    void Start()
+    {
+        
+    }
+    public void GameStart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Debug.Log("You have clicked the button");
+    }
+
+    public void Rules()
+    {
+        Debug.Log("RULES You have clicked the button");
+        
+        foreach (GameObject paanel in panelStart)
+        {
+            panelStart[0].SetActive(false);
+            panelStart[1].SetActive(true);
+        }
+    }
+
+    public void Scores()
+    {
+        Debug.Log("SCORES You have clicked the button");
+        foreach (GameObject paanel in panelStart)
+        {
+            panelStart[0].SetActive(false);
+            panelStart[3].SetActive(true);
+        }
+    }
+
+    public void Intro()
+    {
+        Debug.Log("INTRO");
+        foreach (GameObject paanel in panelStart)
+        {
+            panelStart[0].SetActive(false);
+            panelStart[2].SetActive(true);
+        }
+    }
+
+    public void BackButton()
+    {
+        Debug.Log("BACK");
+        foreach (GameObject paanel in panelStart)
+        {
+            panelStart[1].SetActive(false);
+            panelStart[2].SetActive(false);
+            panelStart[3].SetActive(false);
+            panelStart[0].SetActive(true);
+        }
+         
+    }
+  
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                panelStart[1].SetActive(false);
+                panelStart[2].SetActive(false);
+                panelStart[3].SetActive(false);
+                panelStart[0].SetActive(true);
+            }
+    }
+    public void QuittingApp()
+    {
+        Debug.Log("ded You have clicked the button");
+        Application.Quit();
+        Debug.Log("dupa You have clicked the button");
+    }
+}
