@@ -1,15 +1,19 @@
+using System;
 using UnityEngine;
 
 public class OPENDOOR : MonoBehaviour
 {
-    Animator animator;
+    Animator _animator;
+    private static readonly int IsOnCollision = Animator.StringToHash("IsOnCollision");
+
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        _animator = GetComponent<Animator>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        animator.Play("DoorOpenClose");
+        _animator.SetBool(IsOnCollision,true);
+        _animator.Play("DoorOpenClose");
     }
 }
