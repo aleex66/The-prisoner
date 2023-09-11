@@ -1467,6 +1467,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fba93f236319d5543a94af93711dea14, type: 3}
+--- !u!114 &1946277795 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5245448605856565848, guid: 0d0020f92947ed940b3bb464f6d42278, type: 3}
+  m_PrefabInstance: {fileID: 515503205}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ab692863fbef34ebbf5d2c625fc4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2014747524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,6 +1986,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1270599173, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1946277795}
     - target: {fileID: 2386375496672870104, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
       propertyPath: healthBar
       value: 
@@ -1991,6 +2006,10 @@ PrefabInstance:
       propertyPath: healthImg.Array.data[2]
       value: 
       objectReference: {fileID: 515503206}
+    - target: {fileID: 3267821777372079963, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4373618664700930393, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
       propertyPath: m_Name
       value: prisoner

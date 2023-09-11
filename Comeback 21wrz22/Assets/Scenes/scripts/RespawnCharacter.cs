@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class RespawnCharacter : MonoBehaviour
 {
     public GameObject[] healthImg;
-    public int maxHealth = 100;
+    public int maxHealth;
     public int currentHealth;
 
     public HealthBar healthBar;
@@ -32,9 +32,9 @@ public class RespawnCharacter : MonoBehaviour
 
     void TakeDamage(int damage)
     {
-        currentHealth -= damage;
+        currentHealth-=damage;
         //currentHealth -= maxHealth;
-        healthBar.Sethealth(currentHealth);
+       
         if (currentHealth <= 500)
         {
                 healthImg[0].SetActive(false);
@@ -47,6 +47,7 @@ public class RespawnCharacter : MonoBehaviour
             
                 }
         }
+        healthBar.Sethealth(currentHealth);
     }
     
 }

@@ -2796,6 +2796,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1270599178, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2386375496672870093, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
       propertyPath: m_UseGravity
       value: 0
@@ -2867,6 +2871,9 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1689770474662015443, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
     - {fileID: 2386375496672870102, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
+    - {fileID: 4304493946306935402, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
+    - {fileID: 9139435979637643870, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
+    - {fileID: 4782287818911931326, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a5136fd62cac26b48b8341d82cf21a03, type: 3}
 --- !u!1 &1795706688
 GameObject:
