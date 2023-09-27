@@ -1,8 +1,8 @@
 {
-    "name": "New Controls",
+    "name": "PlayerControls",
     "maps": [
         {
-            "name": "Move",
+            "name": "Player",
             "id": "02a709f1-ae7c-4d1a-9112-21edc8a722e8",
             "actions": [
                 {
