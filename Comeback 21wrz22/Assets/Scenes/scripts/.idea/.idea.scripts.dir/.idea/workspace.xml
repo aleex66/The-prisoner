@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="437707d5-e199-40a2-9c7e-8610d504dc80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AnimDoor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnimDoor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../2 scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4th level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../4th level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prefabs/DoorCell.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../prefabs/DoorCell.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prefabs/Policeman.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../prefabs/Policeman.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prefabs/gun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../prefabs/gun.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prefabs/prisoner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../prefabs/prisoner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OPENDOOR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OPENDOOR.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RespawnCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RespawnCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../BrokenVector/PersistentComponents/Editor/PersistentComponents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../CharController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AnimDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ButtonStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Move.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OPENDOOR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RespawnCharacter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/jump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../openclose.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2WfTFnbCQSDBiGTYy7rKqrOiqY6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\aleks\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\aleks\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\aleks\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="437707d5-e199-40a2-9c7e-8610d504dc80" name="Changes" comment="" />
+      <created>1697122535268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697122535268</updated>
+      <workItem from="1697122538094" duration="1795000" />
+      <workItem from="1697437971575" duration="3089000" />
+      <workItem from="1697445293639" duration="403000" />
+      <workItem from="1697636794216" duration="121000" />
+      <workItem from="1697807982664" duration="6557000" />
+      <workItem from="1698045915813" duration="71000" />
+      <workItem from="1698232648607" duration="721000" />
+      <workItem from="1698390592976" duration="661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
