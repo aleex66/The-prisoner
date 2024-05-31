@@ -20,5 +20,6 @@ public class PoopFlush : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
         }
+        Debug.Log("guwno");
     }
 }

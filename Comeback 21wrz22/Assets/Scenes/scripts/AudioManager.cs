@@ -6,7 +6,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public SoundMaker[] sounds;
-    public static AudioManager instance;
+    static AudioManager instance;
     //bool isPlayin;
     public void Awake()
     {
@@ -36,9 +36,9 @@ public class AudioManager : MonoBehaviour
        
     }
 
-    public void Play(string name)
+    public void Play(string songName)
     {
-        SoundMaker s = Array.Find(sounds, sound => sound._name == name);
+        SoundMaker s = Array.Find(sounds, sound => sound.songName == songName);
         if (s == null)
         {
             return;

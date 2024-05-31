@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 [System.Serializable]
 public class SoundMaker
 {
-    public string _name;
+    public string songName;
     public AudioClip clip;
     [Range(0f, 1f)]
     public float volume;
